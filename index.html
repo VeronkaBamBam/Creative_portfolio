@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея художников</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Главный экран с пользователями -->
+    <div class="users-screen" id="usersScreen">
+        <h1>Выберите художника</h1>
+        <div class="users-grid">
+            <div class="user-card" data-user="user1">
+                <div class="user-avatar">
+                    <img src="https://via.placeholder.com/120" alt="User 1">
+                </div>
+                <span class="user-name">Художник 1</span>
+            </div>
+            <div class="user-card" data-user="user2">
+                <div class="user-avatar">
+                    <img src="https://via.placeholder.com/120" alt="User 2">
+                </div>
+                <span class="user-name">Художник 2</span>
+            </div>
+            <div class="user-card" data-user="user3">
+                <div class="user-avatar">
+                    <img src="https://via.placeholder.com/120" alt="User 3">
+                </div>
+                <span class="user-name">Художник 3</span>
+            </div>
+            <div class="user-card" data-user="user4">
+                <div class="user-avatar">
+                    <img src="https://via.placeholder.com/120" alt="User 4">
+                </div>
+                <span class="user-name">Художник 4</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Экран портфолио -->
+    <div class="portfolio-screen" id="portfolioScreen">
+        <div class="portfolio-header">
+            <div class="back-button" id="backButton">← Назад</div>
+            <div class="current-user" id="currentUser">
+                <div class="current-user-avatar">
+                    <img src="" alt="" id="currentAvatar">
+                </div>
+                <span class="current-user-name" id="currentName"></span>
+            </div>
+        </div>
+
+        <div class="portfolio-gallery" id="portfolioGallery">
+            <!-- Галерея будет заполнена через JavaScript -->
+        </div>
+    </div>
+
+    <!-- Модальное окно для просмотра изображений -->
+    <div class="modal" id="imageModal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
