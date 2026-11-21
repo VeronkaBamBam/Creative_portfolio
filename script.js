@@ -1,6 +1,6 @@
 const usersData = {
     user1: {
-        name: 'Художник 1',
+        name: 'Adaman',
         avatar: 'images/Creator_1.jpg',
         works: [
             'https://picsum.photos/400/400?random=1',
@@ -22,7 +22,7 @@ const usersData = {
         ]
     },
     user3: {
-        name: 'Художник 3',
+        name: 'Void',
         avatar: 'images/Creator_3.jpg',
         works: [
             'https://picsum.photos/400/400?random=11',
@@ -33,7 +33,7 @@ const usersData = {
         ]
     },
     user4: {
-        name: 'Художник 4',
+        name: 'M4wer',
         avatar: 'images/Creator_4.jpg',
         works: [
             'https://picsum.photos/400/400?random=16',
