@@ -1,8 +1,7 @@
-// Данные пользователей и их работ
 const usersData = {
     user1: {
         name: 'Художник 1',
-        avatar: 'https://via.placeholder.com/120/FF6B6B/FFFFFF?text=U1',
+        avatar: 'images/Creator_1.jpg',
         works: [
             'https://picsum.photos/400/400?random=1',
             'https://picsum.photos/400/400?random=2',
@@ -14,7 +13,7 @@ const usersData = {
     },
     user2: {
         name: 'Художник 2',
-        avatar: 'https://via.placeholder.com/120/4ECDC4/FFFFFF?text=U2',
+        avatar: 'images/Creator_2.jpg',
         works: [
             'https://picsum.photos/400/400?random=7',
             'https://picsum.photos/400/400?random=8',
@@ -24,7 +23,7 @@ const usersData = {
     },
     user3: {
         name: 'Художник 3',
-        avatar: 'https://via.placeholder.com/120/45B7D1/FFFFFF?text=U3',
+        avatar: 'images/Creator_3.jpg',
         works: [
             'https://picsum.photos/400/400?random=11',
             'https://picsum.photos/400/400?random=12',
@@ -35,7 +34,7 @@ const usersData = {
     },
     user4: {
         name: 'Художник 4',
-        avatar: 'https://via.placeholder.com/120/F9CA24/FFFFFF?text=U4',
+        avatar: 'images/Creator_4.jpg',
         works: [
             'https://picsum.photos/400/400?random=16',
             'https://picsum.photos/400/400?random=17',
